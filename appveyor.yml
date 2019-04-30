@@ -10,4 +10,4 @@ on_finish:
   - ps: ./kill.ps1
 environment:
   DOTokenSecure:
-    secure: Tk+kQ8w/Xy+Z3xzIH03Ml4lw+5LL3eXvFwV3fXilBTVD+R/JrgUH9VgGnVazoU1HcvFjcpQ8Tlmg37E/hqHfcocPQoxmRpCcEzeanBITYeU=
+    secure: AUw58w59H5g0wTMdspmDKkdMBEll32LD6rLfBFyaGorRq1o876uiP40imfsze6xHc9Q3sUbLeYeOH7hbXQwkWunQYyS6sReF9WTh+oHLwbE=
