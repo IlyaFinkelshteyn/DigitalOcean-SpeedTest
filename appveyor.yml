@@ -1,0 +1,16 @@
+---
+skip_tags: true
+branches:
+  only:
+    - master
+image: "Visual Studio 2017"
+before_build:
+  - ps: Switch-DockerLinux
+test_script:
+  - ps: ./test.ps1
+on_finish:
+  - ps: ./kill.ps1
+environment:
+  DOTokenSecure:
+    secure: Tk+kQ8w/Xy+Z3xzIH03Ml4lw+5LL3eXvFwV3fXilBTVD+R/JrgUH9VgGnVazoU1HcvFjcpQ8Tlmg37E/hqHfcocPQoxmRpCcEzeanBITYeU=
+version: "0.3.0.{build}"
